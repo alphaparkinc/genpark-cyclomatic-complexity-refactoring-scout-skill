@@ -1,0 +1,29 @@
+{
+  "name": "genpark-cyclomatic-complexity-refactoring-scout-skill",
+  "version": "1.0.0",
+  "description": "AST McCabe cyclomatic complexity and cognitive nesting depth evaluator identifying refactoring hotspots and decomposition plans.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "cyclomatic-complexity",
+    "refactoring",
+    "ast",
+    "code-quality",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "calculate_cyclomatic_complexity",
+      "description": "Compute McCabe complexity per function using AST node branching."
+    },
+    {
+      "name": "evaluate_cognitive_nesting_depth",
+      "description": "Assess nesting penalties for deeply indented logic blocks."
+    },
+    {
+      "name": "run_benchmark_complexity_scout",
+      "description": "Execute complexity analysis benchmark."
+    }
+  ]
+}
